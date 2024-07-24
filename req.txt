@@ -1,0 +1,74 @@
+# Technical Test Project
+
+## Project Overview
+
+### Project Name: User Authentication and Authorization System
+
+**Description:**
+Develop a user authentication and authorization system using FastAPI, Flask, or Django, and SQLAlchemy. The system should allow users to register, log in, and perform authenticated actions. The project should include proper handling of user sessions and permissions.
+
+**Requirements:**
+
+- **User Registration:** Implement user registration with username, email, and password.
+- **User Login:** Implement user login using email and password.
+- **JWT Authentication:** Use JWT for user authentication.
+- **User Roles and Permissions:** Implement basic roles (e.g., user, admin) and permissions.
+- **Protected Routes:** Create routes that require authentication and authorization.
+- **Database:** Use SQLAlchemy for database interactions.
+- **Documentation:** Provide clear documentation on how to set up and run the project.
+
+## Project Structure
+
+**Application:**
+
+- `main.py` (or `app.py`): Entry point of the application.
+- `models.py`: Define SQLAlchemy models.
+- `schemas.py` (if using FastAPI) or `forms.py` (if using Flask/Django): Define data validation schemas.
+- `database.py`: Setup for the database.
+- `auth.py`: Authentication-related endpoints and logic.
+- `dependencies.py`: Dependency functions (e.g., JWT decoding).
+- `roles.py`: Role and permission management.
+- `users.py`: User-related endpoints.
+- `config.py`: Configuration settings (e.g., database URL, secret key).
+
+**SQLAlchemy Models:**
+
+- **User:** Stores user information (username, email, hashed password, role).
+- **Role:** Stores role information (e.g., user, admin).
+- **Permission:** Stores permission information.
+
+## API Endpoints
+
+- **POST `/register`**: Register a new user.
+- **POST `/login`**: Authenticate a user and return a JWT.
+- **GET `/users/me`**: Get the current authenticated user's information.
+- **GET `/admin`**: Admin-only endpoint.
+
+## Authentication and Authorization
+
+- Use JWT for authentication.
+- Middleware to protect routes.
+- Role-based access control for sensitive endpoints.
+
+## Submission Instructions
+
+1. Fork the repository and create a new branch with your name.
+2. Complete the project as per the requirements.
+3. Submit a pull request with your completed code.
+4. Provide documentation on how to set up and run your project.
+
+## Evaluation Criteria
+
+- **Code Quality:** Clarity, readability, and adherence to best practices.
+- **Functionality:** Meeting all the specified requirements.
+- **Documentation:** Clear instructions for setup and usage.
+- **Testing:** Adequate test coverage.
+
+## Getting Started
+
+**Prerequisites:**
+
+- Python 3.10+
+- FastAPI, Flask, or Django
+- SQLAlchemy
+- PostgreSQL (or any preferred SQL database)
