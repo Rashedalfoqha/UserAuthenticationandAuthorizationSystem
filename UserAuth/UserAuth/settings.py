@@ -37,10 +37,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "Authentiction",
+    "custom_auth",
     "rest_framework",
+    "rest_framework_simplejwt",
 ]
-
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -50,8 +50,12 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
-
 ROOT_URLCONF = "UserAuth.urls"
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ),
+}
 
 TEMPLATES = [
     {
@@ -83,6 +87,7 @@ DATABASES = {
         "PASSWORD": "CsnB7eQPouIoXdB1QPCvuy-eBDq0KaHw",
         "HOST": "flora.db.elephantsql.com",
         "PORT": "5432",
+        "CONN_MAX_AGE": 600,
     }
 }
 

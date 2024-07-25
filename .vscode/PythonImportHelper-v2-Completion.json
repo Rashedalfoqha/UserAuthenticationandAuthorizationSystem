@@ -1,0 +1,708 @@
+[
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "rest_framework_simplejwt.tokens",
+        "description": "rest_framework_simplejwt.tokens",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.migrations.0001_initial",
+        "description": "UserAuth.custom_auth.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Permission',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=255, unique=True)),",
+        "detail": "UserAuth.custom_auth.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CustomAuthConfig",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.apps",
+        "description": "UserAuth.custom_auth.apps",
+        "peekOfCode": "class CustomAuthConfig(AppConfig):\n    name = 'custom_auth'",
+        "detail": "UserAuth.custom_auth.apps",
+        "documentation": {}
+    },
+    {
+        "label": "create_jwt_token",
+        "kind": 2,
+        "importPath": "UserAuth.custom_auth.auth",
+        "description": "UserAuth.custom_auth.auth",
+        "peekOfCode": "def create_jwt_token(user):\n    payload = {\n        'user_id': user.id,\n        'exp': datetime.utcnow() + timedelta(days=1),\n        'iat': datetime.utcnow(),\n    }\n    token = jwt.encode(payload, settings.SECRET_KEY, algorithm='HS256')\n    return token\ndef decode_jwt_token(token):\n    try:",
+        "detail": "UserAuth.custom_auth.auth",
+        "documentation": {}
+    },
+    {
+        "label": "decode_jwt_token",
+        "kind": 2,
+        "importPath": "UserAuth.custom_auth.auth",
+        "description": "UserAuth.custom_auth.auth",
+        "peekOfCode": "def decode_jwt_token(token):\n    try:\n        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=['HS256'])\n        user = User.objects.get(id=payload['user_id'])\n        return user\n    except jwt.ExpiredSignatureError:\n        return None\n    except jwt.InvalidTokenError:\n        return None",
+        "detail": "UserAuth.custom_auth.auth",
+        "documentation": {}
+    },
+    {
+        "label": "DB_URL",
+        "kind": 5,
+        "importPath": "UserAuth.custom_auth.config",
+        "description": "UserAuth.custom_auth.config",
+        "peekOfCode": "DB_URL = \"postgres://zhzuxwsl:CsnB7eQPouIoXdB1QPCvuy-eBDq0KaHw@flora.db.elephantsql.com/zhzuxwsl\"\nSECRET_KEY='RASHEDALFOQHARASHEDALFOQHARASHEDMOHAMMADALFOQHA'",
+        "detail": "UserAuth.custom_auth.config",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "UserAuth.custom_auth.database",
+        "description": "UserAuth.custom_auth.database",
+        "peekOfCode": "engine = create_engine(DB_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "detail": "UserAuth.custom_auth.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "UserAuth.custom_auth.database",
+        "description": "UserAuth.custom_auth.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "detail": "UserAuth.custom_auth.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "UserAuth.custom_auth.database",
+        "description": "UserAuth.custom_auth.database",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "UserAuth.custom_auth.database",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.forms",
+        "description": "UserAuth.custom_auth.forms",
+        "peekOfCode": "class UserBase(BaseModel):\n    username: str\n    email: EmailStr\nclass UserCreate(UserBase):\n    password: str\nclass UserOut(UserBase):\n    id: int\n    is_active: bool\n    class Config:\n        orm_mode = True",
+        "detail": "UserAuth.custom_auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.forms",
+        "description": "UserAuth.custom_auth.forms",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: str\nclass UserOut(UserBase):\n    id: int\n    is_active: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "UserAuth.custom_auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserOut",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.forms",
+        "description": "UserAuth.custom_auth.forms",
+        "peekOfCode": "class UserOut(UserBase):\n    id: int\n    is_active: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: str | None = None",
+        "detail": "UserAuth.custom_auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.forms",
+        "description": "UserAuth.custom_auth.forms",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: str | None = None",
+        "detail": "UserAuth.custom_auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.forms",
+        "description": "UserAuth.custom_auth.forms",
+        "peekOfCode": "class TokenData(BaseModel):\n    username: str | None = None",
+        "detail": "UserAuth.custom_auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.models",
+        "description": "UserAuth.custom_auth.models",
+        "peekOfCode": "class User(models.Model):\n    username = models.CharField(max_length=255, unique=True)\n    email = models.EmailField(unique=True)\n    password = models.CharField(max_length=255)\n    role = models.ForeignKey('Role', on_delete=models.CASCADE)\nclass Role(models.Model):\n    name = models.CharField(max_length=255, unique=True)\nclass Permission(models.Model):\n    name = models.CharField(max_length=255, unique=True)",
+        "detail": "UserAuth.custom_auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.models",
+        "description": "UserAuth.custom_auth.models",
+        "peekOfCode": "class Role(models.Model):\n    name = models.CharField(max_length=255, unique=True)\nclass Permission(models.Model):\n    name = models.CharField(max_length=255, unique=True)",
+        "detail": "UserAuth.custom_auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.models",
+        "description": "UserAuth.custom_auth.models",
+        "peekOfCode": "class Permission(models.Model):\n    name = models.CharField(max_length=255, unique=True)",
+        "detail": "UserAuth.custom_auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_role",
+        "kind": 2,
+        "importPath": "UserAuth.custom_auth.role",
+        "description": "UserAuth.custom_auth.role",
+        "peekOfCode": "def create_role(name):\n    role = Role(name=name)\n    role.save()\n    return role\ndef assign_role_to_user(user, role_name):\n    role = Role.objects.get(name=role_name)\n    user.role = role\n    user.save()",
+        "detail": "UserAuth.custom_auth.role",
+        "documentation": {}
+    },
+    {
+        "label": "assign_role_to_user",
+        "kind": 2,
+        "importPath": "UserAuth.custom_auth.role",
+        "description": "UserAuth.custom_auth.role",
+        "peekOfCode": "def assign_role_to_user(user, role_name):\n    role = Role.objects.get(name=role_name)\n    user.role = role\n    user.save()",
+        "detail": "UserAuth.custom_auth.role",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "UserAuth.custom_auth.serializers",
+        "description": "UserAuth.custom_auth.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = [\"id\", \"username\", \"email\", \"password\", \"role\"]\n        extra_kwargs = {\"password\": {\"write_only\": True}}\n    def create(self, validated_data):\n        password = validated_data.pop(\"password\", None)\n        instance = self.Meta.model(**validated_data)\n        if password is not None:\n            instance.set_password(password)",
+        "detail": "UserAuth.custom_auth.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "UserAuth.custom_auth.urls",
+        "description": "UserAuth.custom_auth.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"register/\", views.register, name=\"register\"),\n    path(\"login/\", views.login, name=\"login\"),\n    path(\"users/me/\", views.get_current_user, name=\"get_current_user\"),\n    path(\"admin/\", views.admin_view, name=\"admin_view\"),\n]",
+        "detail": "UserAuth.custom_auth.urls",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "UserAuth.custom_auth.views",
+        "description": "UserAuth.custom_auth.views",
+        "peekOfCode": "def register(request):\n    serializer = UserSerializer(data=request.data)\n    if serializer.is_valid():\n        serializer.save()\n        return Response(serializer.data, status=status.HTTP_201_CREATED)\n    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)\n@api_view([\"POST\"])\ndef login(request):\n    email = request.data.get(\"email\")\n    password = request.data.get(\"password\")",
+        "detail": "UserAuth.custom_auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "UserAuth.custom_auth.views",
+        "description": "UserAuth.custom_auth.views",
+        "peekOfCode": "def login(request):\n    email = request.data.get(\"email\")\n    password = request.data.get(\"password\")\n    user = authenticate(request, email=email, password=password)\n    if user is not None:\n        refresh = RefreshToken.for_user(user)\n        return Response(\n            {\n                \"refresh\": str(refresh),\n                \"access\": str(refresh.access_token),",
+        "detail": "UserAuth.custom_auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "UserAuth.custom_auth.views",
+        "description": "UserAuth.custom_auth.views",
+        "peekOfCode": "def get_current_user(request):\n    serializer = UserSerializer(request.user)\n    return Response(serializer.data)\n@api_view([\"GET\"])\n@permission_classes([IsAdminUser])\ndef admin_view(request):\n    users = User.objects.all()\n    serializer = UserSerializer(users, many=True)\n    return Response(serializer.data)",
+        "detail": "UserAuth.custom_auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_view",
+        "kind": 2,
+        "importPath": "UserAuth.custom_auth.views",
+        "description": "UserAuth.custom_auth.views",
+        "peekOfCode": "def admin_view(request):\n    users = User.objects.all()\n    serializer = UserSerializer(users, many=True)\n    return Response(serializer.data)",
+        "detail": "UserAuth.custom_auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.asgi",
+        "description": "UserAuth.UserAuth.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "UserAuth.UserAuth.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-_#lm=t*5j*^8+$l(q@$onkw%o*6ko(*ujmiy8$a^%o$p$w394m\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-_#lm=t*5j*^8+$l(q@$onkw%o*6ko(*ujmiy8$a^%o$p$w394m\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"custom_auth\",",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"custom_auth\",\n    \"rest_framework\",\n    \"rest_framework_simplejwt\",",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"UserAuth.urls\"",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "ROOT_URLCONF = \"UserAuth.urls\"\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ),\n}\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": (\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n    ),\n}\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"UserAuth.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.postgresql_psycopg2\",\n        \"NAME\": \"zhzuxwsl\",\n        \"USER\": \"zhzuxwsl\",\n        \"PASSWORD\": \"CsnB7eQPouIoXdB1QPCvuy-eBDq0KaHw\",\n        \"HOST\": \"flora.db.elephantsql.com\",",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.postgresql_psycopg2\",\n        \"NAME\": \"zhzuxwsl\",\n        \"USER\": \"zhzuxwsl\",\n        \"PASSWORD\": \"CsnB7eQPouIoXdB1QPCvuy-eBDq0KaHw\",\n        \"HOST\": \"flora.db.elephantsql.com\",\n        \"PORT\": \"5432\",\n        \"CONN_MAX_AGE\": 600,\n    }",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.settings",
+        "description": "UserAuth.UserAuth.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "UserAuth.UserAuth.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.urls",
+        "description": "UserAuth.UserAuth.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('custom_auth.urls')),]",
+        "detail": "UserAuth.UserAuth.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "UserAuth.UserAuth.wsgi",
+        "description": "UserAuth.UserAuth.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "UserAuth.UserAuth.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "UserAuth.manage",
+        "description": "UserAuth.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'UserAuth.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "UserAuth.manage",
+        "documentation": {}
+    }
+]
