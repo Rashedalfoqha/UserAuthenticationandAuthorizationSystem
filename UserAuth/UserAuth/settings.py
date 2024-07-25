@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "Authentiction",
+    "custom_auth",
+    "rest_framework",
+    "rest_framework_simplejwt",
 ]
-
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -49,8 +50,12 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
-
 ROOT_URLCONF = "UserAuth.urls"
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ),
+}
 
 TEMPLATES = [
     {
@@ -75,13 +80,14 @@ WSGI_APPLICATION = "UserAuth.wsgi.application"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-     "default": {
+    "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "zhzuxwsl",
         "USER": "zhzuxwsl",
         "PASSWORD": "CsnB7eQPouIoXdB1QPCvuy-eBDq0KaHw",
         "HOST": "flora.db.elephantsql.com",
         "PORT": "5432",
+        "CONN_MAX_AGE": 600,
     }
 }
 
